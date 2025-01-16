@@ -1,0 +1,59 @@
+hr {
+    border: none;
+    height: 2px;
+    background-color: #2f3e46;
+}
+
+body {
+    background-color: #cad2c5;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2f3e46;
+}
+
+header .name {
+    text-align: center;
+    text-decoration: none;
+    color: #2f3e46;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    word-spacing: 0.01px;
+}
+
+header .navigation a{
+    text-decoration: none;
+    color: #2f3e46;
+    gap: 50px;
+    letter-spacing: 1px;
+    word-spacing: 0.01px;
+    white-space;
+}
+
+/* .background {
+    background-color: #84a98c;
+} */
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #2f3e46;
+}
+
+#phone {
+    color: #2f3e46;
+}
+
+#email {
+    color: #2f3e46;
+}
+
+.contactList {
+    list-style: none;
+}
+
+.move{
+    text-decoration: none;
+}
+

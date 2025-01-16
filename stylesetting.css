@@ -10,41 +10,67 @@ body {
     color: #2f3e46;
 }
 
-header .name {
+#home {
     text-align: center;
     text-decoration: none;
     color: #2f3e46;
 }
 
-header .navigation {
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-    word-spacing: 0.01px;
-}
+/* make the navigation to the center of the website */
+/* header .navigation {
+    /* display: flex;
+    justify-content: center; */
+    /* float: right;
+    gap: 50px; */
+    overflow: hidden;
 
-header .navigation a{
+/* remove the hypertext on the navigation */
+/* header a{
+    float: right;
     text-decoration: none;
     color: #2f3e46;
-    gap: 50px;
-    letter-spacing: 1px;
-    word-spacing: 0.01px;
-    white-space;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+} */
+
+.navigation {
+    overflow: hidden;
 }
 
-/* .background {
-    background-color: #84a98c;
+.navigation a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #2f3e46;
+}
+
+.navigation a.nav{
+    float: right;
+}
+
+/* header p{
+    text-align: center;
+    font-size: 30px;
 } */
+
+
+
+
 
 h2 {
     text-decoration: underline;
     text-decoration-color: #2f3e46;
 }
 
+/* change the color of the phone number */
 #phone {
     color: #2f3e46;
 }
 
+/* change the color of the email */
 #email {
     color: #2f3e46;
 }
@@ -52,8 +78,3 @@ h2 {
 .contactList {
     list-style: none;
 }
-
-.move{
-    text-decoration: none;
-}
-

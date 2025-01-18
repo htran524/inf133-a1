@@ -13,26 +13,32 @@ EMAIL: htran181995@gmail.com
   <!-- you would link to an external stylesheet here! -->
   <!-- you would also link to Bootstrap here! -->
   <title>Hung Tran's Portfolio</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="stylesetting.css">
 </head>
 
+<div class="container">
 <body>
-  <header>
-    <nav class="navigation">
-      <h1><a href="home">Hung Tran </a></h1>
-      <a href="#background" class="nav">Background</a>
-      <a href="#education" class="nav">Education</a>
-      <a href="#skillsExpertises" class="nav">Skills</a>
-      <a href="#contact" class="nav">Contact</a>
+  <header id="top" class="row">
+    <nav class="col-lg-6 name">
+      <h1><a href="#top">Hung Tran </a></h1>
     </nav>
-    <p><strong>Welcome to my webpage</strong></p>
+    <nav class="col-lg-6 navigate">
+      <a href="#background">Background </a>
+      <a href="#education">Education </a>
+      <a href="#skillsExpertises">Skills </a>
+      <a href="#contact">Contact </a>
+    </nav>
   </header>
- 
+  <div id="welcome">
+    <p>Welcome</p>
+  </div>
+
   <hr>
   </hr>
-  
+
   <main>
-    <section id="background">
+    <section class="col-lg-6" id="background">
       <h2>Background</h2>
       <h3>Introduction</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque vitae, omnis excepturi eligendi maiores
@@ -76,12 +82,11 @@ EMAIL: htran181995@gmail.com
       <ul class="contactList">
         <li>Phone number: <a id="phone" href="tel:+7142513496">714-251-3496</a></li>
         <li>Email: <a id="email" href="mailto:hungpt@uci.edu">hungpt@uci.edu</a></li>
-        <li>Address: 1658 W Chateau Pl, Anaheim, CA-92802</li>
         <li>Github: </li>
       </ul>
     </section>
   </main>
-
+</div>
   <p>
     <a href="http://validator.w3.org/check?uri=referer">
       W3C validator

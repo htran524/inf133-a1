@@ -1,99 +1,23 @@
-hr {
-    border: none;
-    height: 2px;
-    background-color: #2f3e46;
+.nav-link:last-of-type {
+    padding-right: 0;
 }
 
-.container {
-    padding: 0;
-}
-
-body {
-    background-color: #cad2c5;
-    font-family: 'Courier New', Courier, monospace;
-    color: #2f3e46;
-}
-
-header {
-    position: sticky; /* make the nav bar stick on the top of the page*/
-    top: 0;
-    /* background-color: #84a98c; */
-    border-radius: 5px;
-    padding-top: 2.5mm;
-}
-
-.name{
-    text-align: left;
-    /* margin: 0; */
-}
-
-.name a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #2f3e46;
-}
-
-/* em is 1.2 of the parent size */
 h1 {
-    font-size: 1.3em;
-    font-weight: 700;
+    font-size: 1em;
 }
 
-.navigate {
-    text-align: right;
-    font-weight: 700;
-    /* margin: 0; */
-}
-
-.navigate a {
+h1 a {
     text-decoration: none;
-    color: #2f3e46;
-    word-spacing: 20px;
 }
 
-#welcome {
+#welcome span{
+    width: 100px;
+    height: 100px;
+    font-size: 3em;
+    font-weight: 100;
+    margin: 2px;
+    border-radius: 5%;
     text-align: center;
-    font-size: 3.0em;
-}
-
-h2 {
-    /* text-decoration: underline; */
-    font-size: 1.2em;
-    font-weight: 700;
-    text-decoration-color: #2f3e46;
-}
-
-h3 {
-    font-size: 1.0em;
-    font-weight: 500;
-}
-
-/* change the background of the "Background section" */
- #background {
-    background-color: #dda15e;
-    border-radius: 25px;
-    padding: 5mm;
-}
-
-/* change the color of the phone number */
-#phone {
-    color: #2f3e46;
-}
-
-/* change the color of the email */
-#email {
-    color: #2f3e46;
-}
-
-.contactList {
-    list-style: none;
-}
-
-.contactList a {
-    text-decoration: none;
-}
-
-/* make the phone number and email underlined as hovering */
-.contactList a:hover {
-    text-decoration: underline;
+    padding-top: 10px;
+    display: inline;
 }

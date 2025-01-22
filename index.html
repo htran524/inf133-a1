@@ -8,17 +8,50 @@ EMAIL: htran181995@gmail.com
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Hung Tran">
   <meta name="description" content="description of your page">
   <!-- you would link to an external stylesheet here! -->
   <!-- you would also link to Bootstrap here! -->
   <title>Hung Tran's Portfolio</title>
-  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="stylesetting.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="container">
+
+    <header id="top">
+
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#top">Hung Tran</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#background">Background</a>
+              <a class="nav-link" href="#education">Education</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <div id="welcome" class="row justify-content-center">
       <span style="background-color: #005f73">W</span>
       <span style="background-color: #0a9396">E</span>
@@ -28,99 +61,145 @@ EMAIL: htran181995@gmail.com
       <span style="background-color: #ca6702">M</span>
       <span style="background-color: #bb3e03">E</span>
     </div>
-    
-    <!-- <header id="top" class="row justify-content-md-center">
-      <nav class="col-lg-6">
-        <h1><a href="#top">Hung Tran </a></h1>
-      </nav>
-      <nav class="col-lg-6">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="#background" aria-label="Go to Background">Background</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education" aria-label="Go to Education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skillsExpertises" aria-label="Go to Skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact" aria-label="Go to Contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header> -->
-
-<header id="top">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#top">Hung Tran</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="#background">Background</a>
-          <a class="nav-link" href="#education">Education</a>
-          <a class="nav-link" href="#skills">Skills</a>
-          <a class="nav-link" href="#contact">Contact</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-</header>
-
-
-
     <hr>
     </hr>
-
     <main>
-      <section id="background">
-        <h2>Background</h2>
-        <h3>Introduction</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque vitae, omnis excepturi eligendi maiores
-          mollitia sed dolorem doloremque,
-          alias, harum sequi dicta iure pariatur illum unde id! Esse, fugiat.</p>
-        <h3>Interests</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iusto accusamus molestias nesciunt. Laudantium
-          nostrum vero esse, tempora quidem soluta,
-          animi facere praesentium est maxime illum nihil qui quas repellendus.</p>
-        <!-- photographing, showcase some of the best photo -->
-        <!-- pokemonGO, dota2 -->
-      </section>
-
+      <div class="row">
+        <div id="background">
+          <h1>Background</h1>
+        </div>
+        <div class="col-lg-6" id="b-content">
+          <h2>Introduction</h2>
+          <p>I am originally from Vietnam and have been living here in California since 2014. Before studying in
+            University of Irvine I graduated at Cal State Long Beach majoring Biology. As a senior student in Software
+            Engineering at UCI, I enjoy solving complex programming challenges and developing softwares with real-world
+            applications
+          </p>
+          <!-- photographing, showcase some of the best photo -->
+          <!-- pokemonGO, dota2 -->
+          <div id="interest">
+            <h2>Interests</h2>
+            <p>Besides coding, I am also interested in
+            <ul>
+              <li>Photographing</li>
+              <li>Catching Pokemon in Pokemon Go</li>
+              <li>Playing Dota2</li>
+              <li>Collecting Anime Figures</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <!-- Adding photo's slideshow -->
+        <div class="col-lg-6">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner img-block">
+              <div class="carousel-item active" data-bs-interval="2500">
+                <img class="d-block w-100 c-img" src="Photo1.JPG" alt="Levenworth in spring 2024">
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img class="d-block w-100 c-img" src="Photo3.jpg" alt="Lincoln Memorial">
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img class="d-block w-100 c-img" src="Photo2.JPG" alt="Levenworth in spring 2024">
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img class="d-block w-100 c-img" src="Photo6.jpg" alt="Night market in Philadelphia">
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img class="d-block w-100 c-img" src="Photo4.jpg" alt="The United State Capitol">
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img class="d-block w-100 c-img" src="Photo8.jpg" alt="New York City view from the ferry">
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img class="d-block w-100 c-img" src="Photo10.jpg" alt="Ferry to go to New York City">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <hr>
       </hr>
 
       <section id="Education">
         <!-- golden west college, calstate long beach, occ, uci currently -->
-        <h2>Education</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque vitae, omnis excepturi eligendi maiores
-          mollitia sed dolorem doloremque,
-          alias, harum sequi dicta iure pariatur illum unde id! Esse, fugiat.</p>
+        <h1>Education</h1>
+        <div class="row">
+          <div class="col-lg-6 school">
+            <img class="logo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYX_8loLHV6KqKLlRjGdhP5q4AyWOiTo4WPA&s"
+              alt="Golden West College">
+            <img class="logo"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/CSU-Longbeach_seal.svg/1200px-CSU-Longbeach_seal.svg.png"
+              alt="CalState Long Beach">
+            <img class="logo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0_7VDp8xgMiORIN5s-k0sHyptvcJenq0Myw&s"
+              alt="Orange Coast College">
+            <img class="logo"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/1200px-University_of_California%2C_Irvine_seal.svg.png"
+              alt="University of Irvine">
+          </div>
+          <div class="col-lg-6 history">
+            <ul>
+              <li>Golden West College: 2014-2018 in Biology</li>
+              <li>CalState University of Long Beach: 2018-2020 in Biology</li>
+              <li>Orange Coast College: 2021-2023 in Computer Science</li>
+              <li>University of Irvine: 2023-2025 in Software Engineering</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <hr>
       </hr>
 
-      <section id="skillsExpertises">
-        <h2>Skills</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque vitae, omnis excepturi eligendi maiores
-          mollitia sed dolorem doloremque,
-          alias, harum sequi dicta iure pariatur illum unde id! Esse, fugiat.</p>
-      </section>
+      <div class="row" id="skills">
+        <div class="col-lg-6 e-table">
+          <h1>Experiences</h1>
+          <p>Word Ladder Algorithm in C++</p>
+          <ul>
+            <li>Developed an efficient algorithm in C++ to solve the Word Ladder problem, utilizing breadth-first search
+              to find the shortest transformation sequence between words in a dictionary.</li>
+            <li>Optimized the solution for performance by implementing hash maps and advanced data structures to handle
+              large datasets effectively.</li>
+          </ul>
+          <p>Course Schedule Programs for Students in C++</p>
+          <ul>
+            <li>Successfully programmed an application for students at OCC to enroll in course as a class project by
+              incorporating the fundamental ideas of data structures in C++.</li>
+            <li>rovided student a convenient way to look up, add, or drop course by designing an easy-to-use interface.
+            </li>
+          </ul>
+          <p>Advanced Healthcare Pharmacy (PA): </p>
+          <ul>
+            <li>Delivered comprehensive support, and guidance about medication to patients in person or through phone
+              call</li>
+            <li>Controlled and monitored the pharmacy’s stock of drugs and supplies by carefully checking
+              the inventory weekly.</li>
+            <li>Processed the billing through patients’ health insurances, and immediately resolved the billing issues
+              if necessary.</li>
+          </ul>
+        </div>
+        <div class="col-lg-6 s-table">
+          <h1>Skills</h1>
+          <ul>
+            <li><span>Programming Languages:</span> C++, Java, Python, HTML, CSS, SQL</li>
+            <li><span>Tools & Platforms:</span> VScode, MySQL, Figma, Adobe Lightroom</li>
+            <li><span>Communicating Languages:</span> Vietnamese, English</li>
+          </ul>
+        </div>
+      </div>
 
       <hr>
       </hr>
 
       <section id="contact">
         <!-- insert phone number, email, address, github link-->
-        <h2>Contact</h2>
+        <h1>Contact</h1>
         <ul class="contactList">
           <li>Phone number: <a id="phone" href="tel:+7142513496">714-251-3496</a></li>
           <li>Email: <a id="email" href="mailto:hungpt@uci.edu">hungpt@uci.edu</a></li>
-          <li>Github: </li>
+          <li>Github: <a href="https://github.com/htran524">https://github.com/htran524</li>
         </ul>
       </section>
     </main>
@@ -131,6 +210,9 @@ EMAIL: htran181995@gmail.com
     </a>
   </p>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

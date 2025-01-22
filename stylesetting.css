@@ -3,21 +3,99 @@
 }
 
 h1 {
-    font-size: 1em;
+    font-size: 1.8em;
+    height: 1.5em;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+    padding-top: 2px;
 }
 
-h1 a {
-    text-decoration: none;
+h2 {
+    font-size: 1.4em;
+    font-weight: 500;
 }
 
-#welcome span{
+#welcome {
+    margin-top: 15px;
+}
+
+#background {
+    justify-content: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#b-content p {
+    margin-bottom: 0px;
+}
+
+#interest {
+    margin-top: 10px;
+}
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* editting the welcome part */
+#welcome span {
+    display: block;
     width: 100px;
     height: 100px;
-    font-size: 3em;
-    font-weight: 100;
+    font-size: 4em;
+    font-weight: 200;
     margin: 2px;
     border-radius: 5%;
     text-align: center;
+}
+
+
+/* modifying image on slideshow */
+.c-img {
+    border-radius: 10px;
+}
+
+.img-block {
+    border-radius: 10px;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+/* make the school logo in 1 line with space evenly */
+.school {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px
+}
+
+.history {
     padding-top: 10px;
-    display: inline;
+}
+
+.e-table {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+}
+
+.s-table span {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.e-table p {
+    margin-bottom: 0;
+    font-weight: 700;
+    text-decoration: underline;
 }

@@ -30,10 +30,8 @@ EMAIL: htran181995@gmail.com
 
 <body>
   <div class="container">
-
+    <!-- create the navbar using bootstrap -->
     <header id="top">
-
-
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#top">Hung Tran</a>
@@ -52,6 +50,7 @@ EMAIL: htran181995@gmail.com
         </div>
       </nav>
     </header>
+    <!-- create the welcome sign with color block with flexbox -->
     <div id="welcome" class="row justify-content-center">
       <span style="background-color: #005f73">W</span>
       <span style="background-color: #0a9396">E</span>
@@ -64,6 +63,7 @@ EMAIL: htran181995@gmail.com
     <hr>
     </hr>
     <main>
+      <!-- create the background section using bootstrap grid -->
       <div class="row">
         <div id="background">
           <h1>Background</h1>
@@ -89,11 +89,14 @@ EMAIL: htran181995@gmail.com
             </p>
           </div>
         </div>
-        <!-- Adding photo's slideshow -->
+        <!-- Adding photo's slideshow using carousel in bootstrap -->
         <div class="col-lg-6">
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner img-block">
               <div class="carousel-item active" data-bs-interval="2500">
+                <img class="d-block w-100 c-img" src="Photo8.jpg" alt="New York City view from the ferry">
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
                 <img class="d-block w-100 c-img" src="Photo1.JPG" alt="Levenworth in spring 2024">
               </div>
               <div class="carousel-item" data-bs-interval="2500">
@@ -109,9 +112,6 @@ EMAIL: htran181995@gmail.com
                 <img class="d-block w-100 c-img" src="Photo4.jpg" alt="The United State Capitol">
               </div>
               <div class="carousel-item" data-bs-interval="2500">
-                <img class="d-block w-100 c-img" src="Photo8.jpg" alt="New York City view from the ferry">
-              </div>
-              <div class="carousel-item" data-bs-interval="2500">
                 <img class="d-block w-100 c-img" src="Photo10.jpg" alt="Ferry to go to New York City">
               </div>
             </div>
@@ -120,10 +120,11 @@ EMAIL: htran181995@gmail.com
       </div>
       <hr>
       </hr>
-
-      <section id="Education">
+      <!-- Create the "Education" section using bootstrap -->
+      <div id="Education">
         <!-- golden west college, calstate long beach, occ, uci currently -->
         <h1>Education</h1>
+        <!-- Adding the logo of schools -->
         <div class="row">
           <div class="col-lg-6 school">
             <img class="logo"
@@ -148,11 +149,10 @@ EMAIL: htran181995@gmail.com
             </ul>
           </div>
         </div>
-      </section>
-
+      </div>
       <hr>
       </hr>
-
+      <!-- Create the Skills and Experience section using bootstrap -->
       <div class="row" id="skills">
         <div class="col-lg-6 e-table">
           <h1>Experiences</h1>
@@ -193,7 +193,7 @@ EMAIL: htran181995@gmail.com
       <hr>
       </hr>
 
-      <section id="contact">
+      <div id="contact">
         <!-- insert phone number, email, address, github link-->
         <h1>Contact</h1>
         <ul class="contactList">
@@ -201,14 +201,14 @@ EMAIL: htran181995@gmail.com
           <li>Email: <a id="email" href="mailto:hungpt@uci.edu">hungpt@uci.edu</a></li>
           <li>Github: <a href="https://github.com/htran524">https://github.com/htran524</li>
         </ul>
-      </section>
+      </div>
     </main>
   </div>
-  <p>
+  <!-- <p>
     <a href="http://validator.w3.org/check?uri=referer">
       W3C validator
     </a>
-  </p>
+  </p> -->
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

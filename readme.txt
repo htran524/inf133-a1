@@ -43,11 +43,12 @@ I learn and use HTML and CSS to make a website
 4. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 I am taking "The Web Developer Bootcamp 2025" along side with this course (https://uci.udemy.com/share/106YVG3@5gjMT5JazJZgFITg3km8aJs0vxR7fy9qVueVTtdN-ZByioOehMvFNKYDjf5ndrarzQ==/)
 I also use some tool from Bootstrap documentation to do the navbar and the photo slide show
-
+I also consult this website as making the page https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 I did not consult with other classmates for this assignment
 
-
 6. Is there anything special we need to know in order to run your code?
 There is not think special in order to run my code
+
+7. Link to my portfolio: https://htran524.github.io/inf133-a1/

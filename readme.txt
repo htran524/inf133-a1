@@ -22,28 +22,32 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
+At least one image, with descriptive alt attribute(s)
+Appropriate heading and paragraph text
+Link to external page(s)
 
 (b) CSS features
-
-
+Modifying padding and margins to.
+Modifying link, text color, or other colors.
+Changing image shapes.
 
 (c) Advanced features
-
+Creating a more complex page layout such as navigation bar using Bootstrap.
 
 
 3. How long, in hours, did it take you to complete this assignment?
-
+It took me about 25-30 hours to complete this assignment because this is the first time
+I learn and use HTML and CSS to make a website
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-
+I am taking "The Web Developer Bootcamp 2025" along side with this course (https://uci.udemy.com/share/106YVG3@5gjMT5JazJZgFITg3km8aJs0vxR7fy9qVueVTtdN-ZByioOehMvFNKYDjf5ndrarzQ==/)
+I also use some tool from Bootstrap documentation to do the navbar and the photo slide show
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+I did not consult with other classmates for this assignment
 
 
 6. Is there anything special we need to know in order to run your code?
-
+There is not think special in order to run my code
